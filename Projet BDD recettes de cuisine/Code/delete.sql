@@ -1,0 +1,14 @@
+delete from ArchivePlanning;
+delete from Planning;
+delete from ArchiveListe;
+delete from Liste;
+delete from Inventaire;
+delete from Etape;
+delete from Quantite;
+delete from Appartient;
+delete from Categorie;
+delete from Interdiction;
+delete from Regime;
+delete from Recette;
+delete from Ingredient;
+delete from Utilisateur;

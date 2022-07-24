@@ -1,0 +1,142 @@
+html
+{
+    font-size: 1.5rem;
+    background-color: rgb(188, 226, 190);
+}
+header
+{
+    font-size: 400%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(47, 77, 47);
+}
+header a, header a:hover, header a:active
+{
+    color: whitesmoke;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgb(139, 27, 27);
+}
+a:active
+{
+    color: rgb(47, 77, 47);
+}
+.nav
+{
+    display: flex;
+    background-color : rgb(47, 77, 47);
+    font-size: large;
+    border-top: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 1px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1% ;
+}
+.flexitem
+{
+    background: whitesmoke;
+    border-radius: 5%;
+    padding: 1%;
+}
+.container
+{
+    position: relative;
+    border: solid black 1px;
+    width: 100%;
+    text-align: center;
+}
+.container img
+{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#goeyes
+{
+    position: absolute;
+    background-color: rgb(47, 77, 47);
+    color: whitesmoke;
+    padding: 2%;
+    bottom: 25%;
+    width: auto;
+    margin-left:45%;
+    margin-right:45%;
+    border-radius: 5%;
+    padding: 1%;
+}
+#goeyes a
+{
+    color: whitesmoke;
+}
+form div
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 2%;
+}
+form div input, form div textarea
+{
+    border : 1px inset black;
+}
+form div input.errorinput, form div textarea.errorinput
+{
+    border : 1px inset red;
+    background-color: rgba(251, 176, 176, 0.685);
+}
+form div label.errorinput
+{
+    color: red;
+}
+form div input.errorinput::placeholder, form div textarea.errorinput::placeholder
+{
+    color: black;
+}
+form button
+{
+    background-color: rgb(47, 77, 47);
+    color: whitesmoke;
+    border-radius: 5%;
+    padding: 1%;
+}
+.wrapper
+{
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.row
+{
+    background-color: whitesmoke;
+    border: 2px solid rgb(47, 77, 47);;
+    margin-bottom: 2%;
+    border-radius: 1%;
+    padding: 1.5%;
+}
+.dispRecepName
+{
+    color: rgb(165, 5, 5);
+    margin-bottom: 0;
+}
+.dispName
+{
+    margin-top: 0;
+}
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color : rgb(47, 77, 47);
+    font-size: large;
+    border-top: solid whitesmoke 1px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1%;
+}

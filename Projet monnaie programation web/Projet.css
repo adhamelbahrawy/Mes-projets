@@ -1,0 +1,102 @@
+body
+{
+    font-family: monospace;
+    background-color: rgb(248, 230, 248);
+}
+#wraphead
+{
+    display: flex;
+    justify-content: center;
+}
+#Titre
+{
+    font-variant: small-caps;
+    font-size: 250%;
+    padding: 3%;
+    text-align: center;
+    color: white;
+    background-color: rgb(4, 126, 30);
+}
+.button
+{
+    font-weight: bold;
+    background-color: rgb(131, 118, 251);
+    padding: 2%;
+    border: 2px solid black;
+    margin: 2%;
+}
+.button:hover
+{
+    background-color: rgb(0, 255, 179);
+}
+
+#caisse
+{
+    display: none;
+    align-content: space-around;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2%;
+    border: 2px solid black;
+    width: 80%;
+    height: 50%;
+}
+#paper
+{
+    font-size: 250%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.papier
+{
+    text-align: center;
+    padding: 1.5%;
+    width: 27.5%;
+    display: inline-block;
+    background-color: darkgreen;
+}
+.papier:active
+{
+    background-color: rgb(255, 123, 0);
+}
+#coins
+{
+    font-size: 2em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.coin
+{   margin-top: 4%;
+    text-align: center;
+    background-color: greenyellow;
+    display: inline-block;
+    border-radius: 100%;
+    padding-top: 2vh;
+    padding-bottom: 0;
+    height: 7vh;
+    width: 9vh;
+}
+.coin:active
+{
+    background-color: rgb(255, 123, 0);
+}
+footer
+{
+    text-align: center;
+}
+@media screen and (max-width: 600px)
+{   #Titre
+    {
+        width: 66.6666vw;
+    }
+    #caisse
+    {
+        display: none;
+        width: 66.6666vw;
+    }
+
+}
+  

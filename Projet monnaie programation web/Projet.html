@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projet monnaie</title>
+<link rel="stylesheet" type="text/css" href="Projet.css">
+<script src="Projet.js"></script>
+<meta name="description" content="Mon Projet Monnaie"/>
+<meta name="keywords" content="Monnaie, Projet, ProgWeb"/>
+<meta name="author" content="Adham ELBAHRAWY"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="utf-8"/>
+</head>
+
+<body>
+    <div id="wraphead">
+        <div id="Titre">Rendez la monnaie</div>
+    </div>
+    <input type="button"  class="button" id="next" value="Servir le prochain client">
+    <h1>Client: <span id="client">1</span> (Raté: <span id="rate">0</span> )</h1>
+    <h1>Total dû: <span id="due"></span></h1>
+    <h1>Payé: <span id="payed"></span></h1>
+    <h1>Statut: <span id="status"></span></h1>
+    <input type="button" class="button" id="openclose" value="Ouvrir le tiroir caisse"><br>
+    <div id="caisse">
+        <div id="paper">
+            <div class="papier" id="20">20</div>
+            <div class="papier" id="10">10</div>
+            <div class="papier" id="5">5</div>
+        </div>
+        <div id="coins">
+            <div class="coin" id="2">2</div>
+            <div class="coin" id="1">1</div>
+            <div class="coin" id="0.5">0.5</div>
+            <div class="coin" id="0.2">0.2</div>
+            <div class="coin" id="0.1">0.1</div>  
+        </div>
+        <div>
+        <p>Monnaie : <span id="rest">0.00</span></p>
+        <input type="button" class="button" id="return" value="Rendre la maonnaie"> 
+        </div>
+    </div>
+    <footer>Projet "rendez la maonnaie" - PW1 201920 Printemps</footer>
+</body>
+<script src="Projet.js"></script>
+</html>
